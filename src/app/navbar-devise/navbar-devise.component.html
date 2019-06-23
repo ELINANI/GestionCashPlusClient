@@ -1,0 +1,28 @@
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+ <div class="wrapper">
+   <header>
+         <nav>
+              <div class="logo">
+                   Devise
+              </div>
+              <div class="menu">
+                   <ul>
+                      <li><a  [routerLink]="[{outlets:{contentDevise:'achat'}}]"  routerLinkActive="active">Achat</a></li>
+                      <li><a  [routerLink]="[{outlets:{contentDevise:'vent'}}]"  routerLinkActive="active">Vente</a></li>
+
+                  </ul>
+              </div>
+         </nav>
+   </header>
+ </div>
+ <br><br><br><br><br>
+<div class="container">
+  <app-content-devise></app-content-devise>
+</div>
+  </body>
+</html>

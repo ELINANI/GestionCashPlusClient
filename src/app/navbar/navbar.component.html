@@ -1,0 +1,28 @@
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+ <div class="wrapper">
+   <header>
+         <nav>
+              <div class="logo">
+                   National
+              </div>
+              <div class="menu">
+                   <ul>
+                      <li><a [routerLink]="[{outlets:{contentNational:'in'}}]"  routerLinkActive="active">In</a></li>
+                      <li><a [routerLink]="[{outlets:{contentNational:'out'}}]"  routerLinkActive="active">Out</a></li>
+
+                  </ul>
+              </div>
+         </nav>
+   </header>
+ </div>
+ <br><br><br><br><br>
+<div class="container">
+  <app-content-national></app-content-national>
+</div>
+  </body>
+</html>

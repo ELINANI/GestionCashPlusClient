@@ -1,0 +1,29 @@
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+ <div class="wrapper">
+   <header>
+         <nav>
+              <div class="logo">
+                   <img src="../img/fawatir.png" alt="Fawatir">
+              </div>
+              <div class="menu">
+                   <ul>
+                      <li><a [routerLink]="[{outlets:{contentFawatir:'telecome'}}]"  routerLinkActive="active">Telecom</a></li>
+                      <li><a [routerLink]="[{outlets:{contentFawatir:'eauelec'}}]"  routerLinkActive="active">Eau/Electrecité</a></li>
+                      <li><a [routerLink]="[{outlets:{contentFawatir:'vignette'}}]"  routerLinkActive="active">Vignette</a></li>
+                      <li><a [routerLink]="[{outlets:{contentFawatir:'autres'}}]"  routerLinkActive="active">Autres</a></li>
+                  </ul>
+              </div>
+         </nav>
+   </header>
+ </div>
+ <br><br><br><br><br>
+<div class="container">
+  <app-content-fawatir></app-content-fawatir>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+    <ul>
+       <li><a [routerLink]="[{outlets:{contentOutlet:'dashboard'}}]"  routerLinkActive="active">Dashboard</a></li>
+       <li><a [routerLink]="[{outlets:{contentOutlet:'navbar'}}]" routerLinkActive="active">National</a></li>
+       <li><a [routerLink]="[{outlets:{contentOutlet:'internationale'}}]"  routerLinkActive="active">International</a></li>
+       <li><a [routerLink]="[{outlets:{contentOutlet:'navbarfawatir'}}]" routerLinkActive="active">Fawatir</a></li>
+       <li><a [routerLink]="[{outlets:{contentOutlet:'navbardevise'}}]" routerLinkActive="active">Devise</a></li>
+       <li><a [routerLink]="[{outlets:{contentOutlet:'speedbox'}}]"  routerLinkActive ="active">SpeedBox</a></li>
+       <li><a [routerLink]="[{outlets:{contentOutlet:'payneo'}}]"  routerLinkActive="active">Pay Express / NeoSurf</a></li>
+       <li><a [routerLink]="[{outlets:{contentOutlet:'ctm'}}]"  routerLinkActive="active">CTM</a></li>
+       <li><a [routerLink]="[{outlets:{contentOutlet:'gautres'}}]"  routerLinkActive="active">Autres</a></li>
+       <li><a routerLink="/login" routerLinkActive="active">Log Out</a></li>
+    </ul>
+</body>
+</html>

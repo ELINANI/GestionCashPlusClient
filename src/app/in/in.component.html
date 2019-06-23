@@ -1,0 +1,59 @@
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="table-box">
+      <table cellpadding="10">
+        <tr>
+          <th>N_Transfert</th>
+          <th>Mnt Trs</th>
+          <th>Frais</th>
+          <th>SMS</th>
+        </tr>
+          <tr *ngFor="let i of in">
+            <td>{{i.ntransfert}}</td>
+            <td>{{i.mtn}}</td>
+            <td>{{i.frais}}</td>
+            <td>{{i.sms}}</td>
+         </tr>
+      </table>
+
+  </div>
+<div class="log">
+      <h2>In</h2>
+      <form  [formGroup]="InGroup">
+        <div class="us">
+          <input type="text" name="login" formControlName="ntransfert" required="">
+          <label>N_Transfert</label>
+        </div>
+        <div class="us">
+          <input type="text" name="mtn" fromControlName="mtn" required="">
+          <label>Mnt Trs</label>
+        </div>
+        <div class="us">
+          <input type="text" name="frais" fromControlName="frais" required="">
+          <label>Frais</label>
+        </div>
+        <div class="us">
+          <input type="text" name="sms" fromControlName="sms" required="">
+          <label>SMS</label>
+        </div>
+        <div class="lo">
+      <a>
+        Ajouter
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      </div>
+      </form>
+      </div>
+
+  </body>
+</html>

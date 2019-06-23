@@ -1,0 +1,14 @@
+//#mc
+$font:"ang,sans-serif";
+@if($font == "ang,sans-serif")
+{
+
+}@else
+{
+
+}
+@mixin font($f)
+{
+    color:#ad1457;
+
+}
