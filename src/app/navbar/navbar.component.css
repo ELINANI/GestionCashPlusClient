@@ -2,6 +2,10 @@ html,body{
   margin:0;
   padding:0;
   width: 100%;
+  background: #02211F;
+}
+header{
+  background:#02211F;
 }
 .logo
 {
@@ -15,6 +19,7 @@ html,body{
 nav{
   position: fixed;
   width: 100%;
+  height:10%;
 }
 nav ul
 {
@@ -38,4 +43,10 @@ nav ul li a
   text-decoration: none;
   color: #fff;
   font-size: 20px;
+}
+.wrapper
+{
+  margin-left: 0;
+  width: 100%;
+  height: 10%;
 }

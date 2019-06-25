@@ -1,0 +1,58 @@
+header
+{
+  background:#02211F ;
+  top: 50%;
+  left: 50%;
+}
+table
+{
+margin-left: 25%;
+margin-top: 15  %
+}
+.table-box table
+{
+    width: 60%;
+    text-align: center;
+}
+ .table-box table, th, td
+ {
+ 	border:1px solid #FAC033;
+ 	border-collapse: collapse;
+ 	text-align: left;
+
+ }
+ th
+ {
+ 	position: sticky;
+ 	top: 0;
+ 	text-align: center;
+ 	background:#0D968E;
+ 	color: #fff;
+  }
+ tr th:nth-child(1)
+ {
+ 	width: 60px;
+ 	text-align: center;
+ 	background:#FAC033;
+
+ }
+ tr td:nth-child(1)
+ {
+ 	background:#0D968E;
+ 	text-align: center;
+ 	color: #fff;
+ }
+h3
+{
+  margin-top: 50px;
+  font-size: 35px ;
+  text-align: center;
+  font-family: arial,tahoma,sans-serif;
+  font-weight: bold;
+  color:white;
+  text-transform: capitalize;
+}
+span
+{
+  color:yellow;
+}

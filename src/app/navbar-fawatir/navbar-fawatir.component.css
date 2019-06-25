@@ -2,6 +2,7 @@ html,body{
   margin:0;
   padding:0;
   width: 100%;
+  background: #02211F;
 }
 .logo
 {
@@ -12,6 +13,15 @@ html,body{
 nav{
   position: fixed;
   width: 100%;
+}
+.logo
+{
+  position: fixed;
+  float: left;
+  color: #fff;
+  font-size:24px ;
+  font-weight: bold;
+  margin: 16px 36px;
 }
 nav ul
 {

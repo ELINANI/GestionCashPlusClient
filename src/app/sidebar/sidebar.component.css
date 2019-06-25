@@ -5,13 +5,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-background: #111;
+background: #08645E;
 
 }
 ul{
   margin: 0;
   padding: 0;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 1);
+  box-shadow: 0 15px 40px rgb(13, 150, 142);
 }
 ul li {
   position: relative;
@@ -47,7 +47,7 @@ ul li:hover:before{
 }
 ul li:hover{
  color: #111;
-background: #CC0048;
+background: #FAC033;
 }
 ul li:after{
    content: '';
